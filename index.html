@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>首页</title>
+<link href="css/index.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.scrollify.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+</head>
+
+<body>
+<div class="header">
+    <div class="logo">
+    	<img src="img/LOGO.png">
+        <img src="img/logo-1.png">
+    </div>
+    <!-- <div class="menu-box">
+    	<img src="img/menu-1.png">
+    </div> -->
+    <ul class="link-menu pagination" id="menu">
+        <li><a href="#home" class="guider_link active-1">首页</a></li>
+        <li><a href="#about" class="guider_link">关于我们</a></li>
+        <li><a href="#product" class="guider_link">农业指导</a></li>
+        <li><a href="#news" class="guider_link">产品市场</a></li>
+        <li><a href="#case" class="guider_link">产品销售</a></li>
+        <li><a href="#contact" class="guider_link">联系我们</a></li>
+    </ul>
+    <i class="xian"></i>
+</div>
+
+<div class="black-box">
+	<div class="left-menu">
+		<div class="left-logo"><img src="img/logo-1.png"></div>
+        <ul class="nav">
+        	<li class="now">
+            	<a href="#home">
+                	<p>网站首页</p>
+                    <span>HOME</span>
+                </a>
+                <i></i>
+            </li>
+            <li>
+            	<a href="#about">
+                	<p>关于我们</p>
+                    <span>ABOUT US</span>
+                </a>
+                <i></i>
+                <!-- <ul class="child-nav">
+                	<div class="bb"></div>
+                	<li><a href="#">公司简介</a>
+                    	<ul class="child-nav-1">
+                			<div class="bb"></div>
+                    		<li><a href="#">关于我们三级</a></li>
+                		</ul>
+                    </li>
+                    <li><a href="#">公司梗概</a></li>
+                </ul> -->
+            </li>
+            <li>
+            	<a href="#product">
+                	<p>农业指导</p>
+                    <span>PRODUCTS</span>
+                </a>
+                <i></i>
+            </li>
+            <li>
+            	<a href="#news">
+                	<p>产品市场</p>
+                    <span>THE NEWS</span>
+                </a>
+                <i></i>
+            </li>
+            <li>
+            	<a href="#case">
+                	<p>产品销售</p>
+                    <span>COUNTRYSIDE</span>
+                </a>
+                <i></i>
+            </li>
+            <li>
+            	<a href="#contact">
+                	<p>联系我们</p>
+                    <span>CONTACT US</span>
+                </a>
+                <i></i>
+            </li>
+        </ul>
+        <div class="contact-menu">
+        	总机：XXX <br/>
+
+			电话：XXX <br/>
+
+			联系人：陈总 <br/>
+
+			邮箱：XXX <br/>
+		
+			网址：XXX <br/>
+
+			地址：XXX
+			XXX
+        </div>
+	</div>
+</div>
+
+<div class="neirong">
+    <section class="panel home" data-section-name="home" style="position:relative;">
+        <div class="flexslider">
+            <ul class="slides">
+                <li style="background: url(img/banner-1.jpg) no-repeat center center; background-size: cover;"><a href="#"></a></li>
+                <li style="background: url(img/banner-2.jpg) no-repeat center center; background-size: cover;"><a href="#"></a></li>
+            </ul>
+            <script type="text/javascript">
+            $(document).ready(function(){
+                $('.flexslider').flexslider({
+                    directionNav: true,
+                    pauseOnAction: false,
+                    slideshowSpeed: 5000, // 自动播放速度毫秒
+                    animationSpeed: 700, //滚动效果播放时长
+                });
+            });
+            </script>
+        </div>
+        <div class="slide-icon">
+            <p>滑动查看更多</p>
+            <img class="slide-img" src="img/see-more.png">
+        </div>
+    </section>
+    
+    <section class="panel about" data-section-name="about" style="background-color:#f5f5f5;">
+    	<div class="cont">
+            <div class="left-about">
+                <h1>粒粒皆辛苦——长春师范大学
+                	<b></b>
+                </h1>
+                <div class="txt">
+                	<p>粒粒皆辛苦团队是长春师范大学学子基于国家级大学生创新创业训练计划项目而组建的团队。</p>
+
+					<p>中国是农耕文明源远流长的农业大国，但当下农产品种植销售问题却亟待解决，根据当下农产品所呈现的社会现状，借用互联网思维助力于农业领域发展，从而创立互联网平台。平台分别包括农业指导模块 、农产品市场模块、产品销售模块，旨在多元化且更有针对性地促进农业领域发展。</p>
+                </div>
+                <!-- <a href="about.html" class="more-txt">查看更多&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/more.png"></a> -->
+            </div>
+            <div class="right-img">
+            	<div class="img-cont">
+                	<i class="bg-color"></i>
+                    <div class="ab-img">
+                    	<img src="img/6.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="panel product" data-section-name="product" style="background:url(img/110155.jpg) no-repeat center center fixed;background-size:cover;">
+    	<div class="cont">
+        	<div class="title">
+            	<h2>农业指导</h2>
+                <h3>GUIDE</h3>
+                <img src="img/title.png">
+            </div>
+            <!-- <div class="more"><a href="product-list.html">查看更多<img src="img/more-1.png"></a></div> -->
+            <div class="multipleColumn">
+            	<div class="hd">
+                    <a class="next"></a>
+                    <a class="prev"></a>
+                </div>
+                <div class="bd">
+					<div class="ulWrap">
+                    	<ul  class="special">
+                        	<li class="special">
+                            	<a href="#">
+                                	<div class="pro-img">
+                                    	<img src="img/guide-1.png">
+                                    </div>
+                                    <div class="pro-txt">
+                                    	<h4>水稻</h4>
+                                    	<div class="text">
+                                            <p>水稻按稻谷类型分为籼稻和粳稻、早稻和中晚稻、糯稻和非糯稻。按留种方式分为常规水稻和杂交水稻。还有其它分类，按是否无土栽培分为水田稻与浮水稻；按生存周期分为季节稻与“懒人稻”（越年再生稻）；按高矮分为普通水稻与2米左右的巨型稻；按耐盐碱性分为普通淡水稻与海水稻...</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                        	<li>
+                            	<a href="#">
+                                	<div class="pro-img">
+                                    	<img src="img/guide-2.png">
+                                    </div>
+                                    <div class="pro-txt">
+                                    	<i class="bb"></i>
+                                    	 <div class="text">
+                                        	<h4>小麦</h4>
+                                            <p>小麦是小麦属植物的统称，代表种为普通小麦，是禾本科植物，是一种在世界各地广泛种植的谷类作物，小麦的颖果是人类的主食之一，磨成面粉后可制作面包、馒头、饼干、面条等食物，发酵后可制成啤酒、酒精、白酒（如伏特加），或生物质燃料...</p>
+                                        </div>    
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                            	<a href="#">
+                                    <div class="pro-txt">
+                                    	<i class="ll"></i>
+                                    	 <div class="text">
+                                        	<h4>玉米</h4>
+                                            <p>玉米具有很强的耐旱性、耐寒性、耐贫瘠性以及极好的环境适应性。玉米的营养价值较高，是优良的粮食作物。作为中国的高产粮食作物，玉米是畜牧业、养殖业、水产养殖业等的重要饲料来源，也是食品、医疗卫生、轻工业、化工业等的不可或缺的原料之一</p>
+                                        </div>
+                                    </div>
+                                    <div class="pro-img">
+                                    	<img src="img/guide-3.png">
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                         <ul>
+                        	<li>
+                            	<a href="#">
+                                	<div class="pro-img">
+                                    	<img src="img/guide-5.png">
+                                    </div>
+                                    <div class="pro-txt">
+                                    	<i class="bb"></i>
+                                        <div class="text">
+                                        	<h4>小米</h4>
+                                            <p>小米，又称为粟，北方称谷子，谷子脱壳为小米，其粒小，直径1 mm左右。小米是世界上最古老的栽培农作物之一，起源于中国黄河流域，是中国古代的主要粮食作物。粟生长耐旱，品种繁多，俗称“粟有五彩”，有白、红、黄、黑、橙、紫等各种颜色的小米，也有黏性小米。中国最早的酒也是用小米酿造的。</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                            	<a href="#">
+                                    <div class="pro-txt">
+                                    	<i class="ll"></i>
+                                    	 <div class="text">
+                                        	<h4>黄瓜</h4>
+                                            <p>中国各地普遍栽培，且许多地区均有温室或塑料大棚栽培；现广泛种植于温带和热带地区。黄瓜为中国各地夏季主要菜蔬之一。茎藤药用，能消炎、祛痰、镇痉。</p>
+                                        </div>    
+                                    </div>
+                                    <div class="pro-img">
+                                    	<img src="img/guide-4.png">
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                         <ul>
+                        	<li>
+                            	<a href="#">
+                                	<div class="pro-img">
+                                    	<img src="img/guide-6.png">
+                                    </div>
+                                    <div class="pro-txt"><i class="bb"></i>
+                                    	 <div class="text">
+                                        	<h4>番薯</h4>
+                                            <p>番薯是一种高产而适应性强的粮食作物，与工农业生产和人民生活关系密切。块根除作主粮外，也是食品加工、淀粉和酒精制造工业的重要原料，根、茎、叶又是优良的饲料。</p>
+                                        </div> 
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                            	<a href="#">
+                                    <div class="pro-txt"><i class="ll"></i>
+                                    	 <div class="text">
+                                        	<h4>樱桃</h4>
+                                            <p>樱桃，是某些李属类植物的统称，包括樱桃亚属、酸樱桃亚属、桂樱亚属等。乔木，高2-6米，树皮灰白色。小枝灰褐色，嫩枝绿色，无毛或被...</p>
+                                        </div> 
+                                    </div>
+                                    <div class="pro-img">
+                                    	<img src="img/9.jpg">
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+				</div>
+            </div>
+            <script type="text/javascript">
+				jQuery(".multipleColumn").slide({titCell:".hd ul",mainCell:".bd .ulWrap",autoPage:true,autoPlay:3000,effect:"leftLoop",vis:3});
+			</script>
+        </div>
+    </section>
+    <section class="panel news" data-section-name="news">
+    	<div class="cont">
+        	<div class="title">
+            	<h2>产品市场</h2>
+                <h3>MARKET</h3>
+                <img src="img/title-2.png">
+            </div>
+            <!-- <div class="more"><a href="news-list.html">查看更多<img src="img/more-2.png"></a></div> -->
+            <div class="ns-cont">
+            	<a href="#" class="column">
+                	<div class="min-info">
+                    	<h1>农产品销售问题亟待解决</h1>
+                        <hr align="left">
+                        <h5>2020-12-10</h5>
+                        <p>我们走访于各大农产品销售市场，有众多商户表示，自身所经营的农产品销售目前切实存在一定的销售困难，有众多产品难以确保销售数额，难以确保各类农产品都具备完整的销售链条，由于个体小微商户在销售环节上的不完善，难以做到流程化、模块化。在电商崛起的今天，个体商户的销售问题亟待解决。</p>
+                    </div>
+                    <div class="min-img"><img src="img/market-1.png"></div>
+                </a>
+            </div>
+            <div class="ns-cont">
+            	<a href="#" class="column">
+                	<div class="min-img"><img src="img/market-2.png"></div>
+                    <div class="min-info">
+                    	<h1>“排斥性”与“滞后性”</h1>
+                        <hr align="left">
+                        <h5>2020-12-10</h5>
+                        <p>新媒体营销成为了当下较为广泛的营销方式，新媒体营销平台也逐渐成为了农产品营销和推广媒介，对于新时代的发展而言，对于农产品营销而言，新媒体有着其独特的优势。但是由于农产品销售市场经营者对于未知事物的排斥性、信息接受的滞后性等多方面因素，导致新媒体营销方式难以大范围进入农产品销售领域。</p>
+                    </div>
+                </a>
+            </div>
+            <!-- <div class="ns-cont">
+            	<a href="#" class="column">
+                	<div class="min-info">
+                    	<h1>国产菜油行业再度退守“防线”或迟早沦为“大豆第二”</h1>
+                        <hr align="left">
+                        <h5>2018-09-10</h5>
+                        <p>近日，“进口菜油顶包掺进国家临储库存”的报道炸开了锅，不仅令消费者神经紧绷，对菜油的青睐度一降再降，更是将国产菜油行业的尴尬处境暴露无遗，步步“退守”的趋势或导致国产菜油迟早沦为“大豆第二”。度一降再降，更是将国产菜油行业的尴尬处境暴露无遗，步步“退守”的趋势或导致国产菜油迟早沦为“大豆第二”,步步“退守”的趋势或导致国产菜油迟早沦为“大豆第二”,步步“退守”的趋势或导致国产菜油迟早沦为“大豆第二”。</p>
+                    </div>
+                    <div class="min-img"><img src="img/market-3.png"></div>
+                </a>
+            </div> -->
+            <div class="ns-cont">
+            	<a href="#" class="column">
+                	<div class="min-info">
+                    	<h1>加快农产品营销市场化、精准化发展</h1>
+                        <hr align="left">
+                        <h5>2020-12-10</h5>
+                        <p>现代农产品营销理念在农产品营销过程中发挥着重要作用，但其在市场营销中却仍处于较低地位，众多农产品营销商户难以跟随时代发展，仍旧以单一且传统的销售方式售卖农产品。然而，对于当今时代，新媒体发展迅猛，农产品的产业基础要求也日益提升，应当逐步建立农产品品牌效应，加快农产品营销市场化、精准化的快速发展。</p>
+                    </div>
+                    <div class="min-img"><img src="img/market-5.png"></div>
+                </a>
+            </div>
+            <div class="ns-cont">
+            	<a href="#" class="column">
+                	<div class="min-img"><img src="img/market-4.png"></div>
+                    <div class="min-info">
+                    	<h1>转变思维带动市场良性发展</h1>
+                        <hr align="left">
+                        <h5>2020-12-10</h5>
+                        <p>在此基础之上，农产品销售的龙头企业发展更是对农产品销售的个体经营者有着重大冲击，在很大程度上降低了农产品销售个体经营者的积极性，不利于市场的良性发展。在此态势下，农产品销售的个体经营者更应当寻求更多可能，借助低成本的新媒体平台建立自身品牌，打破时空局限更大程度、更广范围的推广农产品销售。</p>
+                    </div>
+                </a>
+            </div>
+       	</div>
+    </section>
+    <section class="panel case" data-section-name="case" style="background-color:#f5f5f5;">
+    	<div class="cont">
+        	<div class="title">
+            	<h2>产品销售</h2>
+                <h3>SALES</h3>
+                <img src="img/title-2.png">
+            </div>
+            <div class="pic-marquee">
+            	<div class="pic-box">
+                	<ul class="pic-list">
+                    	<li>
+                        	<a>
+                            	<div class="pic-img"><img src="img/sales-1.png"></div>
+                                <div class="pic-txt">
+                                	<i></i>
+                                    <div class="txt-left">
+                                        <h2>“一带一路”促陕西乡村美丽升级</h2>
+                                        <p>返璞归乡惠民心，美丽乡村百姓梦！</p>
+                                    </div>
+                                    <div class="txt-right"></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                        	<a>
+                            	<div class="pic-img"><img src="img/sales-2.png"></div>
+                                <div class="pic-txt">
+                                	<i></i>
+                                    <div class="txt-left">
+                                        <h2>中国最美的农村——江西蠡园古村落</h2>
+                                        <p>地处赣东北，已被国内外誉为中国最美丽的农村</p>
+                                    </div>
+                                    <div class="txt-right"></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                        	<a>
+                            	<div class="pic-img"><img src="img/sales-3.png"></div>
+                                <div class="pic-txt">
+                                	<i></i>
+                                    <div class="txt-left">
+                                        <h2>中国最美乡村——黑龙江雪乡</h2>
+                                        <p>雪乡又名双峰雪乡或双峰林场</p>
+                                    </div>
+                                    <div class="txt-right"></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                        	<a>
+                            	<div class="pic-img"><img src="img/sales-4.png"></div>
+                                <div class="pic-txt">
+                                	<i></i>
+                                    <div class="txt-left">
+                                        <h2>“一带一路”促陕西乡村美丽升级</h2>
+                                        <p>返璞归乡惠民心，美丽乡村百姓梦！</p>
+                                    </div>
+                                    <div class="txt-right"></div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <script type="text/javascript">
+				jQuery(".pic-marquee").slide({mainCell:".pic-box ul",autoPlay:true,effect:"leftMarquee",vis:3,interTime:50});
+			</script>
+            <!-- <a class="more-box" href="product-list.html">查看更多</a> -->
+        </div>
+    </section>
+    <section class="panel contact" data-section-name="contact">
+    	<div class="cont">
+        	<h1>联系我们</h1>
+        	<div class="cont-left">
+            	名称：粒粒皆辛苦——长春师范大学 <br/>
+                
+                联系人：李雨 <br/>
+
+                电话：15236858349 <br/>
+                
+                地址：吉林省长春市二道区长春师范大学<br/>
+    
+                邮箱：2421715098@qq.com <br/>
+            
+                网址：XXX <br/>
+            </div>
+            <div class="cont-right">
+            	<!-- <div class="link">友情链接
+                	<ul>
+                    	<li>
+                        	<a href="#">官方链接一</a>
+                        </li>
+                        <li>
+                        	<a href="#">官方链接二</a>
+                        </li>
+                        <li>
+                        	<a href="#">官方链接三</a>
+                        </li>
+                    </ul>
+                </div> -->
+                <ul class="scan">
+                	<li>
+                    	<div class="scan-img"><img src="img/about-1.jpg"></div>
+                    	<span>官方抖音</span>
+                    </li>
+                    <li>
+                    	<div class="scan-img"><img src="img/about-2.png"></div>
+                        <span>官方微博</span>
+                    </li>
+                    <li>
+                    	<div class="scan-img"><img src="img/about-3.png"></div>
+                        <span>官方快手</span>
+                    </li>
+                </ul>
+                <img class="star" src="img/star.png">  <!--背景装饰图-->
+            </div>
+        </div>
+    </section>
+    <section class="panel footer" data-section-name="footer">
+    	 <br/>
+		访问统计：  浏览总量<span>41046</span>次 /今日浏览<span>41</span>次 /今日独立访客<span>11</span>位    建议(1024*768) IE8.0以上浏览器浏览本站 <br/> 
+		<a href="#">即时通管理</a>    <a href="#">后台登录</a> <br/>
+		    <a href="">触屏版</a> 丨 <a href="">电脑版</a> <br/>
+    </section>
+
+</div>
+
+<script>
+/* 菜单弹出事件 */
+	$(".black-box").hide();
+	$(".menu-box").click(
+		function(){
+			$(".black-box").show();
+			$(".left-menu").stop().animate({marginLeft:0,},500);
+			$(".neirong").stop().animate({marginLeft:290,},500);	
+			event.stopPropagation(); //阻止冒泡
+			var h = $(".left-menu .nav").height();
+			var h2 = $(window).height();
+			var h3 = h / h2;
+			if(h3 > (54 / 100)){
+				
+				$(".left-menu .nav > li a span").css("display","none");
+			}
+			else{
+				$(".left-menu .nav > li a span").css("display","inline-block");
+			}
+		}
+	)
+	
+	$(".black-box").click(
+		function(){
+			$(".black-box").fadeOut(500);
+			$(".neirong").stop().animate({marginLeft:0,},500);
+			$(".left-menu").stop().animate({marginLeft:-290,},500);
+		}
+	)
+/* --end-- */	
+	
+/* 二级菜单显示隐藏效果 */	
+	$(".child-nav").hide();
+	$(".nav > li").mouseenter(
+		function(){
+			$(this).children(".child-nav").show().fadeIn(500);
+		}
+	)
+	$(".nav > li").mouseleave(
+		function(){
+			$(this).children(".child-nav").hide().fadeOut(500);
+		}
+	)
+/* --end-- */
+
+/* 友情链接点击事件 */	
+	var z = true;
+	$(".link").click(
+		function(){
+			if(z == true){
+				$(this).children("ul").css("display","block");
+				z = false;
+			}
+			else{
+				$(this).children("ul").css("display","none");
+				z = true;
+			}
+		}
+	)
+/* --end-- */
+</script>
+</body>
+</html>
